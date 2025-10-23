@@ -35,5 +35,18 @@ for (int torre = 1; torre <= 5 ; torre++)
 {
     printf("Direita \n");// direção do movimento
 }
+
+//mover cavalo 2 casas p/baixo e 1 casa p/ esquerda
+printf("movimentação da peça cavalo: \n");
+int cavalo = 1;//variavel externa
+
+while (cavalo--)//decremento
+{
+   for (int i = 0; i < 2; i++)//estrutura de repetição
+   {
+    printf("baixo \n");//direção do movimento
+   }
+   printf("esquerda \n");//direção do movimeto
+}
     return 0;
 }
